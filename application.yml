@@ -1,10 +1,10 @@
-
 spring:
   datasource:
+    driverClassName: org.h2.Driver
     url: jdbc:h2:mem:demo
     username: sa
-    password: {cipher}1ecbeb12ecbd5bd6ec8863f19f545efe3cfe96cb69582b79188cd5557aac4e16
-    driverClassName: org.h2.Driver
+    password: {cipher}AQB19y0KeipNBcggicwjnMIZSq3yjVmVxas0Ze3VmgOxp0TyY89p+0E4RcpqhzfpTVHzyYh/sNNG1d8Pac6WmJVJFK9p/GuOZhJhIT11GvIXI/Hwa+o3A+JiZENMLFrMfm95QImdonETycJFiIsPoyvH19j9FQqBCxUPdtuKgOrOahYYKASIfUVghqP5VfCZUrdFcwkpy/Et1l5HmM4HJpzxGWBA1/oKhXYagk5DOnztV+b/LsY/1SyztgiVUAYXtpIV6D+Zt0yxcyFb6rbuoyihDc+M3QXluARKMZKk6jE3AZ2Lo9ki3SiSojiQxKo81RH88GjZwLOIgLfK8dmVNNBsUNxk27k0IRf1UsRo15erqA18HZCX2B6Uhtpr6MxvvzU=
+
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
